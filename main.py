@@ -13,14 +13,14 @@ while(True):
           "D. Division\n" +
           "P. Power\n" +
           "R. Root (unimplemented)\n" +
-          "Q. Quadratic Equasion (unimplemented)\n" +
+          "Q. Quadratic Equation (unimplemented)\n" +
           "F. Factorial (unimplemented)\n" +
           "H. Real HDD/Flash space (unimplemented)\n" +
           "N. Direct Proportionality\n" +
           "Q. quit")
     
     cmd = readchar("#")
-    if(cmd == "a"): #addition
+    if(cmd == "a"):  # addition
         Add()
     elif(cmd == "s"):
         Sub()
@@ -32,10 +32,10 @@ while(True):
         Power()
     elif(cmd == "n"):
         Dirp()
-    elif(cmd == "q"): #quit
-        print("See you later aligator.")
+    elif(cmd == "q"):  # quit
+        print("See you later alligator.")
         break 
-    elif(cmd == "`"): #debug
+    elif(cmd == "`"):  # debug
         Debug()
     else:
         clear()

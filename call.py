@@ -1,12 +1,5 @@
 from kolreq.kolreq import clear, readchar
-from getch import getch #py-getch
-from datetime import datetime
-from time import sleep
-import subprocess
-import tempfile
-import sys, os
-import glob
-import json
+
 
 def number():
     number = input("#")
@@ -17,11 +10,14 @@ def number():
         number()
     return number
 
+
 def paktc():
     input("press any key to continue")
 
+
 def Debug():
     print("so far nothing.")
+
 
 def Add():
     clear()
@@ -34,6 +30,7 @@ def Add():
     print(f"the result of {num1} + {num2} = {res}")
     paktc()
 
+
 def Sub():
     clear()
     print("type the first number")
@@ -44,6 +41,7 @@ def Sub():
     clear()
     print(f"the result of {num1} - {num2} = {res}")
     paktc()
+
 
 def Multi():
     clear()
@@ -56,6 +54,7 @@ def Multi():
     print(f"the result of {num1} * {num2} = {res}")
     paktc()
 
+
 def Divi():
     clear()
     print("type the first number")
@@ -66,6 +65,7 @@ def Divi():
     clear()
     print(f"the result of {num1} / {num2} = {res}")
     paktc()
+
 
 def Power():
     clear()
@@ -78,9 +78,10 @@ def Power():
     print(f"the result of {num1} to the power {num2} = {res}")
     paktc()
 
+
 def Dirp():
     clear()
-    print("type persentage you know")
+    print("type percentage you know")
     per1 = number()
     print(f"type the value at {per1}%")
     num1 = number()
@@ -118,6 +119,7 @@ def Dirp():
     print(f"{spa(NumPreDotSpace2)}{num2}{spa(NumAftDotSpace2)}. . . .{spa(PerPreDotSpace2)}{per2}{spa(PerAftDotSpace2)}")
     paktc()
 
+
 def spa(s):
     space = ""
     if(s == 0):
@@ -126,6 +128,8 @@ def spa(s):
         for i in range(0, s):
             space = space + " "
     return space
+
+
 '''
 def Root():
 
