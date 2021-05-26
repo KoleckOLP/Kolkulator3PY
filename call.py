@@ -1,4 +1,4 @@
-from kolreq import clear, readchar
+from kolreq.kolreq import clear, readchar
 from getch import getch #py-getch
 from datetime import datetime
 from time import sleep

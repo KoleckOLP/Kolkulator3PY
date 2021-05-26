@@ -1,6 +1,5 @@
-
 from call import Add, Sub, Multi, Divi, Power, Dirp, Debug
-from kolreq import clear, readchar
+from kolreq.kolreq import clear, readchar
 
 clear()
 
